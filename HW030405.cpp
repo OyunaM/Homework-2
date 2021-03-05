@@ -8,7 +8,7 @@ int main(){
 	cin>>A;
 	
 	
-	if(A>21){
+	if(A>=21){
 		cout<<A<<" you can cast your vote";
 	
 	}else{
