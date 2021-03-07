@@ -3,16 +3,16 @@
 using namespace std;
 
 int main(){
-	int height, H;
+	int height;
 	cout<<"Input height : ";
-	cin>>H;
+	cin>>height;
 	
 	
-	if(H<147){
-		cout<<H<<" This person is Dwarf";
+	if(height<147){
+		cout<<height<<" This person is Dwarf";
 	
 	}else{
-		cout<<H<<" This person is not Dwarf";
+		cout<<height<<" This person is not Dwarf";
 	}
 	
 	
