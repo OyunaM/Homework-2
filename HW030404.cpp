@@ -5,17 +5,17 @@ using namespace std;
 int main(){
 	int year;
 	cout<<"Input year : ";
-	cin>>Y;
+	cin>>year;
 	
 	
-	if(Y%4==0){
-		cout<<Y<<" is a common year";
-	}else if(x>10){
-		cout<<x<<" is greater than 10 but less than 100";
-	}else if(x>0){
-		cout<<x<<" is greater than 0 but less than 10";
+	if(year%4 !=0){;
+		cout<<year<<" is a common year";
+	}else if(year%100 !=0){
+		cout<<year<<" is a leap year";
+	}else if(year%400 !=0){
+		cout<<year<<" is a common year";
 	}else{
-		cout<<x<<" is less than 0";
+		cout<<year<<" is a leap year";
 	}
 	
 	
