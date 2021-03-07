@@ -3,16 +3,17 @@
 using namespace std;
 
 int main(){
-	int age, A;
+	int age;
 	cout<<"Input age : ";
-	cin>>A;
+	cin>>age;
 	
 	
-	if(A>=21){
-		cout<<A<<" you can cast your vote";
+	
+	if(age>=21){
+		cout<<age<<" you can cast your vote";
 	
 	}else{
-		cout<<A<<" you can not cast your vote";
+		cout<<age<<" you can not cast your vote";
 	}
 	
 	
