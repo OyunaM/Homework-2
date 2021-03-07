@@ -3,14 +3,14 @@
 using namespace std;
 
 int main(){
-	int number, N;
+	int num;
 	
-	cout<<"Input number : ";
-	cin>>N;
+	cout<<"Input num : ";
+	cin>>num;
 	
 	
-	if(N%5==0){
-		cout<<N<<" number is divisible by 5 and ";
+	if(num%5==0 && num%11==0){
+		cout<<num<<" number is divisible by 5 and 11";
 	}
 	
 	if(N%11==0){
