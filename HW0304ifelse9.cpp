@@ -4,18 +4,16 @@ using namespace std;
 
 int main(){
 	char ch;
-	char A,a,Z,z;
-	
-	
+		
 	cout<<"Input ch : ";
 	cin>>ch;
 	
 	
-	if(z>=ch>=a){
-		cout<<ch<<" is an alphabet";
-	}else if(Z>=ch>=A){
-		cout<<ch<<" is an alphabet";
-	}else if(9>=ch>=0){
+	if(ch>='a' && ch<='z'){
+		cout<<ch<<" is a lowercase alphabet";
+	}else if(ch>='A' && ch<='Z'){
+		cout<<ch<<" is an uppercase alphabet";
+	}else if(ch>=48 && ch<=57){
 		cout<<ch<<" is digit";
 	
 	}else{
