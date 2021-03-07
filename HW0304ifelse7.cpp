@@ -4,8 +4,7 @@ using namespace std;
 
 int main(){
 	char ch;
-	char A,a,Z,z;
-	cout<<"Input ch : ";
+		cout<<"Input ch : ";
 	cin>>ch;
 	
 	
